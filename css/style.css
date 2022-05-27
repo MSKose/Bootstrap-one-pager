@@ -1,3 +1,7 @@
+:root {
+    --red: #dc3545;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -41,4 +45,22 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+}
+
+.carousel-caption h5 {
+    color: var(--red) !important;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+}
+
+.carousel-caption p {
+    text-shadow: 2px 2px 2px black;
+    font-weight: 500;
+}
+
+.carousel-indicators button {
+    background-color: var(--red) !important;
+    height: 0.4rem !important;
+    width: 3rem !important;
+    margin-right: 0.7rem !important;
 }
