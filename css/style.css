@@ -38,9 +38,9 @@
   display: none;
 } */
  
-
+/* 
 .carousel-inner .carousel-item img { 
-    /* height: 100%; */
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -63,4 +63,45 @@
     height: 0.4rem !important;
     width: 3rem !important;
     margin-right: 0.7rem !important;
-}
+} */
+
+
+:root {
+    --red: #dc3545;
+  }
+  
+  /*! ---------------------- 1- NAVBAR ----------------------------- */
+  .navbar-light {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(59, 59, 59);
+    transition: color 1s;
+  }
+  
+  .navbar-light .nav-link:hover {
+    color: var(--red);
+  }
+  /*! ---------------------- 2- CAROUSEL ----------------------------- */
+  .carousel-item {
+    height: calc(100vh - 88px);
+  }
+  .carousel-item h1 {
+    color: var(--red);
+    text-shadow: 2px 2px 2px black;
+  }
+  
+  /*! ------------------- 3- ABOUT SECTION ------------------------ */
+  
+  /*! ------------------- 4- INSTRUCTORS ------------------------ */
+  
+  /*! ------------------- 4- STUDENTS SECTION ------------------------ */
+  
+  /*! ------------------- 5- COURSES SECTION ------------------------ */
+  
+  /*! ------------------- 6- CONTACT SECTION ------------------------ */
+  
+  /** ------------------- UP-BUTTON --------------------- */
+  
+  /*! -------------------- 7- FOOTER ------------------------ */
+  
